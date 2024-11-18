@@ -1,0 +1,33 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="section-triv">
+        <h1>Trivia</h1>
+        <div id="questions-div">
+            <form id="form-triv">
+                <label for="cat-triv">Categoría:</label>
+                <select name="category" id="select-cat"></select>
+                <label for="dif-triv">Dificultad:</label>
+                <select name="difficult" id="select-dif">
+                    <option value="easy">Fácil</option>
+                    <option value="medium">Medio</option>
+                    <option value="hard">Difícil</option>
+                </select>
+                <label for="type-triv">Tipo de Respuesta:</label>
+                <select name="type" id="select-type">
+                    <option value="multiple">Elección Múltiple</option>
+                    <option value="boolean">Verdadero o Falso</option>
+                </select>
+                <button type="submit">Generar Trivia</button>
+            </form>
+        </div>
+
+    </section>
